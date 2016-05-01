@@ -1,9 +1,14 @@
-var t = require('tap');
-var list = require('../lib');
+var test = require('tape');
+var list = require('..');
 
 var fake = ['hello', 'world,', '--foo,', 'bar'];
-var out = list(fake);
 
-var expect = [['hello', 'world'], ['--foo'], ['bar']];
+test('argv splitting', function(t) {
+  t.plan(1);
 
-t.same(expect, out);
+  t.same(
+    list(fake),
+    [['hello', 'world'], ['--foo'], ['bar']],
+    'split argv-like array into list'
+  );
+});
