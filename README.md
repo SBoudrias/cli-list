@@ -1,4 +1,7 @@
 # cli-list
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/SBoudrias/cli-list.svg)](https://greenkeeper.io/)
+
 > Break CLI lists into arrays
 
 [![build status][travis-status]][travis] ![downloads][downloads]
