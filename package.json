@@ -5,7 +5,8 @@
   "version": "0.2.0",
   "license": "MIT",
   "scripts": {
-    "test": "tape 'test/**.js' | tap-spec"
+    "test": "tape 'test/**.js' | tap-spec",
+    "lint": "eslint ."
   },
   "main": "index.js",
   "files": [
@@ -19,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamen/cli-list"
+    "url": "https://github.com/SBoudrias/cli-list"
   }
 }
