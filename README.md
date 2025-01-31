@@ -1,7 +1,7 @@
 # cli-list
 > Break CLI lists into arrays
 
-[![build status][travis-status]][travis] ![downloads][downloads]
+![downloads][downloads]
 
 Given a "CLI list" like so:
 ```
